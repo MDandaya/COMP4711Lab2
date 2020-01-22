@@ -1,34 +1,32 @@
 
 body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    font-family: Trebuchet MS, sans-serif;
-}
-.container {
-    display: inline-block;
-    padding: 1em;
+    max-width: 500px;
+    margin: auto;
+    padding: 5em;
 }
 
-#topbar {
+.hover:hover {
+    background-color: gray;
+}
+
+.container {
+    margin: 0em;
+    padding: 2em;
+    display: block;
+}
+
+.box {
     border: 1px;
     border-style: solid;
+    border-color: gray;
 }
 
-#listcontainer {
-    display: inline-block;
-
+.box img {
+    float: left;
 }
 
-.profilebox {
-
-}
-.profilebox {
-
-}
-
-.profilename {
-
-}
-
-.description {
-
+.box .decription {
+    float: left;
 }
