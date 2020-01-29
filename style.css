@@ -16,29 +16,23 @@ body {
 
 .flex-item {
     margin: auto;
-    padding: 0px;
+    padding: 10px;
     border: 1px;
     border-style: solid;
     border-color: gray;
+    max-width: 40%;
+    text-align: left;
 }
 
 .flex-item > img {
-    padding: 10px;
     border-radius: 20%;
     float: left;
 }
 
 .flex-item .description {
-    padding: 5px;
+    padding: 10px;
     float: left;
     text-align: left;
 }
 
-.top {
-    margin: auto;
-    padding: 10px;
-    width: 50%;
-    border: 1px;
-    border-style: solid;
-    border-color: gray;
-}
+
